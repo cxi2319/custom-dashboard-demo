@@ -1,0 +1,25 @@
+{
+    "$id": "c_Pages-Views-by-Week",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Pages Views by Week",
+    "description": "Pages Views by Week",
+    "query": {
+      "metrics": [
+        "yext/PAGE_VIEWS"
+      ],
+      "dimensions": [
+        "yext/WEEKS"
+      ],
+      "filters": [
+        {
+          "filter": "yext/date",
+          "in": "WEEKS_4"
+        }
+      ],
+      "comparison": "PREVIOUS_YEAR"
+    },
+    "display": {
+      "line": {}
+    }
+  }
+  

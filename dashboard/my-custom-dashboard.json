@@ -1,0 +1,27 @@
+{
+    "$id":"my-custom-dashboard",
+    "$schema":"https://schema.yext.com/config/analytics/dashboard/v1",
+    "name":"My Custom Dashboard",
+    "insights":[
+       {
+          "insight":"c_Pages-Views-by-Week",
+          "x":0,
+          "y":0,
+          "width":2,
+          "height":3
+       },
+       {
+          "insight":"LISTINGS-OVERVIEW",
+          "x":2,
+          "y":0,
+          "width":4,
+          "height":3
+       }
+    ],
+    "filters":[
+       {
+          "filter":"yext/date",
+          "in":"DAYS_30"
+       }
+    ]
+ }
